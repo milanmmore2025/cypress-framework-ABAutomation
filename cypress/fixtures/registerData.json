@@ -1,0 +1,8 @@
+{
+    "firstName": "John",
+    "lastName": "Doe",
+    "email": "test.milan2@gmail.com",
+    "password": "password123",
+    "phone": "1234567890",
+    "successMessage": "Your Account Has Been Created!"
+}
