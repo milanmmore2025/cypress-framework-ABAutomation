@@ -1,0 +1,56 @@
+{
+    "Register": {
+        "firstName": "John",
+        "lastName": "Doe",
+        "email": "test.milan2@gmail.com",
+        "password": "password123",
+        "phone": "1234567890",
+        "successMessage": "Your Account Has Been Created!"
+    },
+    "login" : {
+        "email": "test.milan2@gmail.com",
+        "password": "password123"
+    },
+    "product": 
+        {
+            "productName": "Macbook",
+            "price": 29.99,
+            "description": "Description for Product 1"
+        }
+    ,
+    "message": {
+        "successMessage": "Success: You have added", 
+        "errorMessage": "There was an error processing your request."
+    },
+    "cart": {
+        "items": [
+            {
+                "productName": "Product 1",
+                "quantity": 2,
+                "price": 29.99
+            },
+            {
+                "productName": "Product 2",
+                "quantity": 1,
+                "price": 49.99
+            }
+        ],
+        "totalPrice": 109.97
+    },
+    "checkout": {
+        "shippingAddress": {
+            "firstName": "John",
+            "lastName": "Doe",
+            "address": "123 Main St",
+            "city": "Anytown",
+            "state": "CA",
+            "zipCode": "12345"
+        },
+        "paymentMethod": {
+            "cardNumber": "4111111111111111",
+            "expiryDate": "12/25",
+            "cvv": "123"
+        },
+        "successMessage": "Your order has been placed successfully!"
+    }
+}

@@ -2,10 +2,8 @@ import { registerPage } from '../../pages/registerPage';
 const registerObj = new registerPage();
 import registerData from '../../fixtures/registerData.json';
 
-
-
 describe('Automation Framework Sanity Testsuite', () => {
-    it.only('Register flow', () => {
+    it('Register flow', () => {
         registerObj.launchRegisterPage();
         registerObj.enterFirstName(registerData.firstName);
         registerObj.enterLastName(registerData.lastName);
