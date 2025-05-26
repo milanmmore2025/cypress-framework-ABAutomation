@@ -15,7 +15,7 @@ describe('Automation Framework Sanity Testsuite', () => {
         registerObj.enterConfirmPassword(registerData.password);
         registerObj.checkPolicyCheckbox();
         registerObj.clickContinueButton();
-        //cy.get(registerObj.weblocators.successMessage).should('be.visible');
+        cy.get(registerObj.weblocators.successMessage).should('be.visible');
     })
 
 });
